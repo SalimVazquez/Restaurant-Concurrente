@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="763.0" prefWidth="1359.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="restaurant.view.RestaurantController">
+   <children>
+      <ImageView fitHeight="551.0" fitWidth="1179.0" layoutX="670.0" layoutY="-43.0" rotate="90.0">
+         <image>
+            <Image url="@../assets/373987-200.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="769.0" fitWidth="1157.0" layoutX="-1.0" layoutY="-6.0">
+         <image>
+            <Image url="@../assets/piso.jpg" />
+         </image>
+      </ImageView>
+      <Line endX="107.0" endY="81.66665649414062" layoutX="1049.0" layoutY="48.0" startX="107.0" startY="715.0000610351562" stroke="WHITE" strokeWidth="10.0" />
+      <Line endX="100.0" endY="80.80001831054688" layoutX="356.0" layoutY="41.0" startX="100.0" startY="712.0000610351562" stroke="WHITE" strokeWidth="10.0" />
+      <ImageView fitHeight="95.0" fitWidth="97.0" layoutX="1048.0" layoutY="154.0">
+         <image>
+            <Image url="@../assets/mesa.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="95.0" fitWidth="97.0" layoutX="567.0" layoutY="671.0">
+         <image>
+            <Image url="@../assets/mesa.png" />
+         </image>
+      </ImageView>
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#2872b7" height="159.0" layoutX="713.0" layoutY="610.0" stroke="BLACK" strokeType="INSIDE" width="438.0" />
+      <ImageView fitHeight="95.0" fitWidth="97.0" layoutX="686.0" layoutY="288.0">
+         <image>
+            <Image url="@../assets/mesa.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="95.0" fitWidth="97.0" layoutX="687.0" layoutY="490.0">
+         <image>
+            <Image url="@../assets/mesa.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="95.0" fitWidth="97.0" layoutX="873.0" layoutY="482.0">
+         <image>
+            <Image url="@../assets/mesa.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="95.0" fitWidth="97.0" layoutX="1038.0" layoutY="490.0">
+         <image>
+            <Image url="@../assets/mesa.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="95.0" fitWidth="97.0" layoutX="875.0" layoutY="290.0">
+         <image>
+            <Image url="@../assets/mesa.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="95.0" fitWidth="97.0" layoutX="1048.0" layoutY="287.0">
+         <image>
+            <Image url="@../assets/mesa.png" />
+         </image>
+      </ImageView>
+      <Rectangle fx:id="estufa0" arcHeight="5.0" arcWidth="5.0" fill="#ffffff00" height="110.0" layoutY="634.0" stroke="#00ff04" strokeType="INSIDE" strokeWidth="5.0" width="120.0" />
+      <ImageView fitHeight="138.0" fitWidth="147.0" layoutX="-25.0" layoutY="620.0" rotate="270.0">
+         <image>
+            <Image url="@../assets/estufa.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="118.0" fitWidth="106.0" layoutX="132.0" layoutY="634.0">
+         <image>
+            <Image url="@../assets/cocinero.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgVMesero0" fitHeight="118.0" fitWidth="120.0" layoutX="465.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgVMesa0" fitHeight="66.0" fitWidth="70.0" layoutX="972.0" layoutY="163.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgVMesa1" fitHeight="66.0" fitWidth="70.0" layoutX="972.0" layoutY="302.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgVMesa2" fitHeight="66.0" fitWidth="70.0" layoutX="784.0" layoutY="302.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgVMesa3" fitHeight="66.0" fitWidth="70.0" layoutX="615.0" layoutY="290.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgVMesa4" fitHeight="66.0" fitWidth="70.0" layoutX="972.0" layoutY="494.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgVMesa5" fitHeight="66.0" fitWidth="70.0" layoutX="784.0" layoutY="494.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgVMesa6" fitHeight="66.0" fitWidth="70.0" layoutX="615.0" layoutY="492.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgVMesaVIP0" fitHeight="66.0" fitWidth="70.0" layoutX="972.0" layoutY="685.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgVMesaVIP1" fitHeight="66.0" fitWidth="70.0" layoutX="749.0" layoutY="686.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgVAsiento0" fitHeight="66.0" fitWidth="70.0" layoutX="1061.0" layoutY="114.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgVAsiento1" fitHeight="66.0" fitWidth="70.0" layoutX="1067.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgVAsiento2" fitHeight="66.0" fitWidth="70.0" layoutX="879.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgVAsiento3" fitHeight="66.0" fitWidth="70.0" layoutX="701.0" layoutY="236.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgVAsiento4" fitHeight="66.0" fitWidth="70.0" layoutX="1062.0" layoutY="426.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgVAsiento5" fitHeight="66.0" fitWidth="70.0" layoutX="889.0" layoutY="426.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgVAsiento6" fitHeight="66.0" fitWidth="70.0" layoutX="696.0" layoutY="434.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgVAsientoVIP0" fitHeight="66.0" fitWidth="70.0" layoutX="1062.0" layoutY="612.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgVAsientoVIP1" fitHeight="66.0" fitWidth="70.0" layoutX="829.0" layoutY="612.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="imgVAsiento7" fitHeight="66.0" fitWidth="70.0" layoutX="567.0" layoutY="612.0" pickOnBounds="true" preserveRatio="true" />
+      <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#ca9e1b" height="643.0" layoutX="331.0" layoutY="115.0" stroke="BLACK" strokeType="INSIDE" width="120.0" />
+      <Line endX="100.0" layoutX="345.0" layoutY="248.0" startX="-5.79998779296875" startY="-1.52587890625E-5" stroke="#e8e38b" strokeWidth="10.0" />
+      <Line endX="100.0" layoutX="343.0" layoutY="384.0" startX="-5.79998779296875" startY="-1.52587890625E-5" stroke="#e8e38b" strokeWidth="10.0" />
+      <Line endX="100.0" layoutX="344.0" layoutY="537.0" startX="-5.79998779296875" startY="-1.52587890625E-5" stroke="#e8e38b" strokeWidth="10.0" />
+      <Line endX="100.0" layoutX="344.0" layoutY="678.0" startX="-5.79998779296875" startY="-1.52587890625E-5" stroke="#e8e38b" strokeWidth="10.0" />
+      <ImageView fx:id="espacioPlato0" fitHeight="95.0" fitWidth="106.0" layoutX="344.0" layoutY="146.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="espacioPlato1" fitHeight="95.0" fitWidth="106.0" layoutX="339.0" layoutY="276.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="espacioPlato2" fitHeight="95.0" fitWidth="106.0" layoutX="337.0" layoutY="420.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="espacioPlato3" fitHeight="95.0" fitWidth="106.0" layoutX="338.0" layoutY="564.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fitHeight="95.0" fitWidth="89.0" layoutX="1042.0" layoutY="659.0">
+         <image>
+            <Image url="@../assets/mesa_vip.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="95.0" fitWidth="89.0" layoutX="819.0" layoutY="659.0">
+         <image>
+            <Image url="@../assets/mesa_vip.png" />
+         </image>
+      </ImageView>
+      <ImageView fx:id="imgVMesa7" fitHeight="66.0" fitWidth="70.0" layoutX="490.0" layoutY="673.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="plato0" fitHeight="40.0" fitWidth="40.0" layoutX="1076.0" layoutY="173.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="plato1" fitHeight="40.0" fitWidth="40.0" layoutX="1082.0" layoutY="303.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="plato2" fitHeight="40.0" fitWidth="40.0" layoutX="901.0" layoutY="303.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="plato3" fitHeight="40.0" fitWidth="40.0" layoutX="711.0" layoutY="303.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="plato4" fitHeight="40.0" fitWidth="40.0" layoutX="1067.0" layoutY="495.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="plato5" fitHeight="40.0" fitWidth="40.0" layoutX="904.0" layoutY="495.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="plato6" fitHeight="40.0" fitWidth="40.0" layoutX="716.0" layoutY="505.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="plato7" fitHeight="40.0" fitWidth="40.0" layoutX="595.0" layoutY="686.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="platoVIP0" fitHeight="40.0" fitWidth="40.0" layoutX="1067.0" layoutY="686.0" pickOnBounds="true" preserveRatio="true" />
+      <ImageView fx:id="platoVIP1" fitHeight="40.0" fitWidth="40.0" layoutX="844.0" layoutY="686.0" pickOnBounds="true" preserveRatio="true" />
+   </children>
+</AnchorPane>

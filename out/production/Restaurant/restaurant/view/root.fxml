@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.shape.Circle?>
+<?import javafx.scene.shape.Line?>
+<?import javafx.scene.shape.Rectangle?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="650.0" prefWidth="1100.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="restaurant.view.RestaurantController">
+   <top>
+      <AnchorPane prefHeight="60.0" prefWidth="800.0" style="-fx-background-color: #A54657;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="46.0" fitWidth="173.0" layoutX="25.0" layoutY="7.0">
+               <image>
+                  <Image url="@../assets/logo.png" />
+               </image>
+            </ImageView>
+            <Text fill="#582630" layoutX="315.0" layoutY="42.0" stroke="WHITE" strokeType="OUTSIDE" strokeWidth="3.0" text="~ Restaurante Marriot ~">
+               <font>
+                  <Font name="Elephant Italic" size="36.0" />
+               </font></Text>
+         </children>
+      </AnchorPane>
+   </top>
+   <bottom>
+      <AnchorPane prefHeight="38.0" prefWidth="1100.0" style="-fx-background-color: BLACK;" BorderPane.alignment="CENTER">
+         <children>
+            <Text fill="WHITE" layoutX="14.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Programación Concurrente">
+               <font>
+                  <Font name="Elephant" size="16.0" />
+               </font></Text>
+            <Text fill="WHITE" layoutX="648.0" layoutY="30.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Equipo: Salim Vazquez Solis y Rocio Valedo Santiago">
+               <font>
+                  <Font name="Elephant" size="16.0" />
+               </font></Text>
+         </children>
+      </AnchorPane>
+   </bottom>
+   <center>
+      <AnchorPane prefHeight="452.0" prefWidth="1100.0" style="-fx-background-color: #C2BBB5;" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fx:id="imgClient11" fitHeight="47.0" fitWidth="41.0" layoutX="317.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgClient12" fitHeight="47.0" fitWidth="41.0" layoutX="317.0" layoutY="152.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgClient13" fitHeight="47.0" fitWidth="41.0" layoutX="317.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgClient14" fitHeight="47.0" fitWidth="41.0" layoutX="317.0" layoutY="308.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgClient15" fitHeight="47.0" fitWidth="41.0" layoutX="317.0" layoutY="386.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgClient16" fitHeight="47.0" fitWidth="41.0" layoutX="439.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgClient17" fitHeight="47.0" fitWidth="41.0" layoutX="439.0" layoutY="154.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgClient18" fitHeight="47.0" fitWidth="41.0" layoutX="439.0" layoutY="233.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgClient19" fitHeight="47.0" fitWidth="41.0" layoutX="439.0" layoutY="308.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgClient20" fitHeight="47.0" fitWidth="41.0" layoutX="439.0" layoutY="386.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgClient8" fitHeight="47.0" fitWidth="41.0" layoutX="205.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgClient9" fitHeight="47.0" fitWidth="41.0" layoutX="205.0" layoutY="307.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgClient10" fitHeight="47.0" fitWidth="41.0" layoutX="205.0" layoutY="384.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgClient7" fitHeight="47.0" fitWidth="41.0" layoutX="205.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgClient6" fitHeight="47.0" fitWidth="41.0" layoutX="205.0" layoutY="67.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgClient5" fitHeight="47.0" fitWidth="41.0" layoutX="83.0" layoutY="384.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgClient4" fitHeight="47.0" fitWidth="41.0" layoutX="83.0" layoutY="307.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgClient3" fitHeight="47.0" fitWidth="41.0" layoutX="83.0" layoutY="232.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgClient2" fitHeight="47.0" fitWidth="41.0" layoutX="83.0" layoutY="149.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fx:id="imgClient1" fitHeight="47.0" fitWidth="41.0" layoutX="83.0" layoutY="68.0" pickOnBounds="true" preserveRatio="true" />
+            <ImageView fitHeight="472.0" fitWidth="793.0" layoutX="23.0" layoutY="34.0">
+               <image>
+                  <Image url="@../assets/pisoo.jpg" />
+               </image>
+            </ImageView>
+            <Line endX="700.0" layoutX="119.0" layoutY="512.0" startX="-100.0" stroke="#582630" strokeWidth="10.0" />
+            <Line endX="380.0" layoutX="-121.0" layoutY="271.0" rotate="90.0" startX="-100.0" stroke="#582630" strokeWidth="10.0" />
+            <Line endX="55.0" layoutX="700.0" layoutY="354.0" rotate="90.0" startX="-246.0" stroke="#582630" strokeWidth="10.0" />
+            <Line endX="700.0" layoutX="119.0" layoutY="31.0" startX="-100.0" stroke="#582630" strokeWidth="10.0" />
+            <Line endX="380.0" layoutX="679.0" layoutY="271.0" rotate="90.0" startX="-100.0" stroke="#582630" strokeWidth="10.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" fill="#543e10" height="32.0" layoutX="693.0" layoutY="122.0" stroke="TRANSPARENT" strokeType="INSIDE" width="64.0" />
+            <Line endX="10.0" layoutX="734.0" layoutY="31.0" startX="-50.0" stroke="WHITE" strokeWidth="10.0" />
+            <Line endX="-88.0" layoutX="808.0" layoutY="31.0" rotate="90.0" startX="-100.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="43.0" layoutX="511.0" layoutY="369.0" rotate="90.0" stroke="TRANSPARENT" strokeType="INSIDE" width="235.0" />
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="43.0" layoutX="675.0" layoutY="369.0" rotate="90.0" stroke="TRANSPARENT" strokeType="INSIDE" width="235.0" />
+            <ImageView fitHeight="45.0" fitWidth="40.0" layoutX="609.0" layoutY="423.0" rotate="-90.0">
+               <image>
+                  <Image url="@../assets/estufa.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="45.0" fitWidth="40.0" layoutX="609.0" layoutY="385.0" rotate="-90.0">
+               <image>
+                  <Image url="@../assets/estufa.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="45.0" fitWidth="40.0" layoutX="773.0" layoutY="385.0" rotate="90.0">
+               <image>
+                  <Image url="@../assets/estufa.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="45.0" fitWidth="40.0" layoutX="609.0" layoutY="345.0" rotate="-90.0">
+               <image>
+                  <Image url="@../assets/estufa.png" />
+               </image>
+            </ImageView>
+            <Rectangle arcHeight="5.0" arcWidth="5.0" height="43.0" layoutX="646.0" layoutY="465.0" stroke="TRANSPARENT" strokeType="INSIDE" width="135.0" />
+            <ImageView fitHeight="45.0" fitWidth="40.0" layoutX="773.0" layoutY="423.0" rotate="90.0">
+               <image>
+                  <Image url="@../assets/estufa.png" />
+               </image>
+            </ImageView>
+            <Line endX="-38.0" layoutX="852.0" layoutY="203.0" startX="-246.0" stroke="#582630" strokeWidth="10.0" />
+            <ImageView fitHeight="75.0" fitWidth="72.0" layoutX="67.0" layoutY="53.0">
+               <image>
+                  <Image url="@../assets/silla.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="75.0" fitWidth="72.0" layoutX="67.0" layoutY="138.0">
+               <image>
+                  <Image url="@../assets/silla.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="75.0" fitWidth="72.0" layoutX="67.0" layoutY="218.0">
+               <image>
+                  <Image url="@../assets/silla.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="75.0" fitWidth="72.0" layoutX="67.0" layoutY="293.0">
+               <image>
+                  <Image url="@../assets/silla.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="75.0" fitWidth="72.0" layoutX="67.0" layoutY="371.0">
+               <image>
+                  <Image url="@../assets/silla.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="43.0" fitWidth="80.0" layoutX="672.0" layoutY="465.0" rotate="180.0">
+               <image>
+                  <Image url="@../assets/fregadero.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="43.0" fitWidth="50.0" layoutX="767.0" layoutY="274.0" rotate="90.0">
+               <image>
+                  <Image url="@../assets/refris.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="75.0" fitWidth="72.0" layoutX="189.0" layoutY="53.0">
+               <image>
+                  <Image url="@../assets/silla.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="75.0" fitWidth="72.0" layoutX="189.0" layoutY="138.0">
+               <image>
+                  <Image url="@../assets/silla.png" />
+               </image>
+            </ImageView>
+            <Line endX="-3.0" layoutX="626.0" layoutY="237.0" rotate="90.0" startX="-40.0" stroke="WHITE" strokeWidth="10.0" />
+            <Line endX="-88.0" layoutX="699.0" layoutY="237.0" startX="-100.0" />
+            <ImageView fitHeight="75.0" fitWidth="72.0" layoutX="189.0" layoutY="218.0">
+               <image>
+                  <Image url="@../assets/silla.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="75.0" fitWidth="72.0" layoutX="189.0" layoutY="293.0">
+               <image>
+                  <Image url="@../assets/silla.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="75.0" fitWidth="72.0" layoutX="189.0" layoutY="371.0">
+               <image>
+                  <Image url="@../assets/silla.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="75.0" fitWidth="72.0" layoutX="301.0" layoutY="54.0">
+               <image>
+                  <Image url="@../assets/silla.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="75.0" fitWidth="72.0" layoutX="301.0" layoutY="139.0">
+               <image>
+                  <Image url="@../assets/silla.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="75.0" fitWidth="72.0" layoutX="301.0" layoutY="219.0">
+               <image>
+                  <Image url="@../assets/silla.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="75.0" fitWidth="72.0" layoutX="301.0" layoutY="294.0">
+               <image>
+                  <Image url="@../assets/silla.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="75.0" fitWidth="72.0" layoutX="301.0" layoutY="372.0">
+               <image>
+                  <Image url="@../assets/silla.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="75.0" fitWidth="72.0" layoutX="423.0" layoutY="54.0">
+               <image>
+                  <Image url="@../assets/silla.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="75.0" fitWidth="72.0" layoutX="423.0" layoutY="139.0">
+               <image>
+                  <Image url="@../assets/silla.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="75.0" fitWidth="72.0" layoutX="423.0" layoutY="219.0">
+               <image>
+                  <Image url="@../assets/silla.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="75.0" fitWidth="72.0" layoutX="423.0" layoutY="294.0">
+               <image>
+                  <Image url="@../assets/silla.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="75.0" fitWidth="72.0" layoutX="423.0" layoutY="372.0">
+               <image>
+                  <Image url="@../assets/silla.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="22.0" fitWidth="25.0" layoutX="701.0" layoutY="127.0">
+               <image>
+                  <Image url="@../assets/compu.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="50.0" fitWidth="45.0" layoutX="730.0" layoutY="124.0">
+               <image>
+                  <Image url="@../assets/pngegg.png" />
+               </image>
+            </ImageView>
+            <Rectangle fx:id="estufa1" arcHeight="5.0" arcWidth="5.0" height="30.0" layoutX="753.0" layoutY="393.0" stroke="TRANSPARENT" strokeType="INSIDE" width="17.0" />
+            <Button layoutX="843.0" layoutY="63.0" mnemonicParsing="false" onMouseClicked="#btnStart" style="-fx-background-color: BLACK;" text="Iniciar" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="15.0" />
+               </font>
+            </Button>
+            <Button layoutX="1023.0" layoutY="63.0" mnemonicParsing="false" onMouseClicked="#btnExit" prefWidth="57.0" style="-fx-background-color: BLACK;" text="Salir" textFill="WHITE">
+               <font>
+                  <Font name="Berlin Sans FB" size="15.0" />
+               </font>
+            </Button>
+            <Rectangle fx:id="estufa2" arcHeight="5.0" arcWidth="5.0" height="30.0" layoutX="753.0" layoutY="431.0" stroke="TRANSPARENT" strokeType="INSIDE" width="17.0" />
+            <Rectangle fx:id="estufa3" arcHeight="5.0" arcWidth="5.0" height="30.0" layoutX="652.0" layoutY="431.0" stroke="TRANSPARENT" strokeType="INSIDE" width="17.0" />
+            <Rectangle fx:id="estufa4" arcHeight="5.0" arcWidth="5.0" height="30.0" layoutX="652.0" layoutY="393.0" stroke="TRANSPARENT" strokeType="INSIDE" width="17.0" />
+            <Rectangle fx:id="estufa5" arcHeight="5.0" arcWidth="5.0" height="30.0" layoutX="652.0" layoutY="356.0" stroke="TRANSPARENT" strokeType="INSIDE" width="17.0" />
+            <TextField fx:id="noClientes" layoutX="843.0" layoutY="25.0" prefHeight="25.0" prefWidth="237.0" promptText="Ingrese la cantidad de clientes" />
+            <Text layoutX="862.0" layoutY="167.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Recepción">
+               <font>
+                  <Font name="Berlin Sans FB" size="15.0" />
+               </font></Text>
+            <Line endX="100.0" layoutX="962.0" layoutY="138.0" startX="-100.0" stroke="#572630b1" />
+            <Line endX="100.0" layoutX="961.0" layoutY="340.0" startX="-100.0" stroke="#572630b1" />
+            <Text layoutX="861.0" layoutY="371.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Cocina">
+               <font>
+                  <Font name="Berlin Sans FB" size="15.0" />
+               </font>
+            </Text>
+            <Circle fx:id="mesa1" layoutX="103.0" layoutY="114.0" radius="24.0" stroke="#f7f5f5" strokeType="INSIDE" />
+            <Circle fx:id="mesa2" layoutX="103.0" layoutY="199.0" radius="24.0" stroke="#f7f5f5" strokeType="INSIDE" />
+            <Circle fx:id="mesa3" layoutX="103.0" layoutY="279.0" radius="24.0" stroke="#f7f5f5" strokeType="INSIDE" />
+            <Circle fx:id="mesa4" layoutX="103.0" layoutY="354.0" radius="24.0" stroke="#f7f5f5" strokeType="INSIDE" />
+            <Circle fx:id="mesa5" layoutX="103.0" layoutY="432.0" radius="24.0" stroke="#f7f5f5" strokeType="INSIDE" />
+            <Circle fx:id="mesa6" layoutX="225.0" layoutY="114.0" radius="24.0" stroke="#f7f5f5" strokeType="INSIDE" />
+            <Circle fx:id="mesa7" layoutX="225.0" layoutY="196.0" radius="24.0" stroke="#f7f5f5" strokeType="INSIDE" />
+            <Circle fx:id="mesa8" layoutX="225.0" layoutY="279.0" radius="24.0" stroke="#f7f5f5" strokeType="INSIDE" />
+            <Circle fx:id="mesa9" layoutX="225.0" layoutY="354.0" radius="24.0" stroke="#f7f5f5" strokeType="INSIDE" />
+            <Circle fx:id="mesa10" layoutX="225.0" layoutY="432.0" radius="24.0" stroke="#f7f5f5" strokeType="INSIDE" />
+            <Circle fx:id="mesa11" layoutX="337.0" layoutY="115.0" radius="24.0" stroke="#f7f5f5" strokeType="INSIDE" />
+            <Circle fx:id="mesa12" layoutX="337.0" layoutY="200.0" radius="24.0" stroke="#f7f5f5" strokeType="INSIDE" />
+            <Circle fx:id="mesa13" layoutX="337.0" layoutY="280.0" radius="24.0" stroke="#f7f5f5" strokeType="INSIDE" />
+            <Circle fx:id="mesa14" layoutX="337.0" layoutY="355.0" radius="24.0" stroke="#f7f5f5" strokeType="INSIDE" />
+            <Circle fx:id="mesa15" layoutX="337.0" layoutY="433.0" radius="24.0" stroke="#f7f5f5" strokeType="INSIDE" />
+            <Circle fx:id="mesa16" layoutX="459.0" layoutY="115.0" radius="24.0" stroke="#f7f5f5" strokeType="INSIDE" />
+            <Circle fx:id="mesa17" layoutX="459.0" layoutY="197.0" radius="24.0" stroke="#f7f5f5" strokeType="INSIDE" />
+            <Circle fx:id="mesa18" layoutX="459.0" layoutY="280.0" radius="24.0" stroke="#f7f5f5" strokeType="INSIDE" />
+            <Circle fx:id="mesa19" layoutX="459.0" layoutY="355.0" radius="24.0" stroke="#f7f5f5" strokeType="INSIDE" />
+            <Circle fx:id="mesa20" layoutX="459.0" layoutY="433.0" radius="24.0" stroke="#f7f5f5" strokeType="INSIDE" />
+            <ImageView fitHeight="129.0" fitWidth="37.0" layoutX="550.0" layoutY="266.0">
+               <image>
+                  <Image url="@../assets/waiter.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="129.0" fitWidth="37.0" layoutX="550.0" layoutY="293.0">
+               <image>
+                  <Image url="@../assets/waiter.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="129.0" fitWidth="37.0" layoutX="550.0" layoutY="322.0">
+               <image>
+                  <Image url="@../assets/waiter.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="129.0" fitWidth="37.0" layoutX="550.0" layoutY="363.0">
+               <image>
+                  <Image url="@../assets/waiter.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="115.0" fitWidth="41.0" layoutX="632.0" layoutY="255.0">
+               <image>
+                  <Image url="@../assets/chef.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="115.0" fitWidth="41.0" layoutX="737.0" layoutY="290.0">
+               <image>
+                  <Image url="@../assets/chef.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="115.0" fitWidth="41.0" layoutX="729.0" layoutY="348.0">
+               <image>
+                  <Image url="@../assets/chef.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="115.0" fitWidth="41.0" layoutX="651.0" layoutY="308.0">
+               <image>
+                  <Image url="@../assets/chef.png" />
+               </image>
+            </ImageView>
+            <ImageView fitHeight="115.0" fitWidth="41.0" layoutX="630.0" layoutY="352.0">
+               <image>
+                  <Image url="@../assets/chef.png" />
+               </image>
+            </ImageView>
+            <Circle fill="#1fff45" layoutX="64.0" layoutY="533.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+            <Label layoutX="79.0" layoutY="525.0" text="Cliente sentado" />
+            <Circle fill="#ffe221" layoutX="189.0" layoutY="534.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+            <Label layoutX="204.0" layoutY="526.0" text="Contactando mesero" />
+            <Circle fill="#2321ff" layoutX="334.0" layoutY="535.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+            <Label layoutX="349.0" layoutY="527.0" text="Comiendo" />
+            <Circle fill="#ff2121" layoutX="425.0" layoutY="536.0" radius="11.0" stroke="BLACK" strokeType="INSIDE" />
+            <Label layoutX="440.0" layoutY="528.0" text="Mesa libre" />
+            <TextArea fx:id="dataRecepcion" layoutX="861.0" layoutY="173.0" prefHeight="153.0" prefWidth="200.0" />
+            <TextArea fx:id="dataCocina" layoutX="861.0" layoutY="374.0" prefHeight="146.0" prefWidth="200.0" />
+         </children>
+      </AnchorPane>
+   </center>
+</BorderPane>
