@@ -250,8 +250,8 @@ public class RestaurantController implements Observer, Initializable{
             listMeseros.get(i).setRestaurant(restaurant);
             listCocineros.get(i).setRestaurant(restaurant);
         }
-        
-        for(int i = 0; i < numeroComensales; i++){
+        int totalComensales = (int) (numeroComensales*.20);
+        for(int i = 0; i < totalComensales; i++){
             cliente = new Cliente(recepcionista, restaurant,"Cliente "+i);
             cliente.addObserver(this);
             new Thread(cliente,"CLIENTE "+i).start();
